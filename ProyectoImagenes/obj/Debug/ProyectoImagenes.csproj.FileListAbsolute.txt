@@ -1,0 +1,10 @@
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\bin\Debug\ProyectoImagenes.exe.config
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\bin\Debug\ProyectoImagenes.exe
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\bin\Debug\ProyectoImagenes.pdb
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.csprojAssemblyReference.cache
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.Form1.resources
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.Properties.Resources.resources
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.csproj.GenerateResource.cache
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.csproj.CoreCompileInputs.cache
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.exe
+D:\Universidad\inter 2020\algebra lineal\proyecto\FiltroDeImagenes\ProyectoImagenes\obj\Debug\ProyectoImagenes.pdb
