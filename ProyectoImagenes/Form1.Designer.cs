@@ -56,6 +56,7 @@
             this.metodo_7 = new System.Windows.Forms.Button();
             this.metodo_8 = new System.Windows.Forms.Button();
             this.metodo_9 = new System.Windows.Forms.Button();
+            this.vistadialogo = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -281,6 +282,10 @@
             this.metodo_9.Text = "Original";
             this.metodo_9.UseVisualStyleBackColor = true;
             // 
+            // vistadialogo
+            // 
+            this.vistadialogo.FileName = "vistadialo";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -354,6 +359,7 @@
         private System.Windows.Forms.Button metodo_7;
         private System.Windows.Forms.Button metodo_8;
         private System.Windows.Forms.Button metodo_9;
+        private System.Windows.Forms.OpenFileDialog vistadialogo;
     }
 }
 
