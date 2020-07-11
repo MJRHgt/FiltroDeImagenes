@@ -226,6 +226,7 @@
             this.metodo_3.TabIndex = 19;
             this.metodo_3.Text = "Sobel Inferior";
             this.metodo_3.UseVisualStyleBackColor = true;
+            this.metodo_3.Click += new System.EventHandler(this.metodo_3_Click);
             // 
             // metodo_4
             // 
@@ -235,6 +236,7 @@
             this.metodo_4.TabIndex = 20;
             this.metodo_4.Text = "Sobel Superior";
             this.metodo_4.UseVisualStyleBackColor = true;
+            this.metodo_4.Click += new System.EventHandler(this.metodo_4_Click);
             // 
             // metodo_5
             // 
@@ -244,6 +246,7 @@
             this.metodo_5.TabIndex = 21;
             this.metodo_5.Text = "Sobel Izquierdo";
             this.metodo_5.UseVisualStyleBackColor = true;
+            this.metodo_5.Click += new System.EventHandler(this.metodo_5_Click);
             // 
             // metodo_6
             // 
@@ -253,6 +256,7 @@
             this.metodo_6.TabIndex = 22;
             this.metodo_6.Text = "Sobel Derecho";
             this.metodo_6.UseVisualStyleBackColor = true;
+            this.metodo_6.Click += new System.EventHandler(this.metodo_6_Click);
             // 
             // metodo_7
             // 
@@ -272,6 +276,7 @@
             this.metodo_8.TabIndex = 24;
             this.metodo_8.Text = "Afilar";
             this.metodo_8.UseVisualStyleBackColor = true;
+            this.metodo_8.Click += new System.EventHandler(this.metodo_8_Click);
             // 
             // metodo_9
             // 
@@ -281,6 +286,7 @@
             this.metodo_9.TabIndex = 25;
             this.metodo_9.Text = "Original";
             this.metodo_9.UseVisualStyleBackColor = true;
+            this.metodo_9.Click += new System.EventHandler(this.metodo_9_Click);
             // 
             // vistadialogo
             // 
