@@ -58,6 +58,7 @@
             this.metodo_9 = new System.Windows.Forms.Button();
             this.vistadialogo = new System.Windows.Forms.OpenFileDialog();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -184,9 +185,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(186, 520);
+            this.button2.Location = new System.Drawing.Point(296, 520);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 49);
+            this.button2.Size = new System.Drawing.Size(125, 49);
             this.button2.TabIndex = 15;
             this.button2.Text = "abrir";
             this.button2.UseVisualStyleBackColor = true;
@@ -304,12 +305,23 @@
             this.label3.TabIndex = 26;
             this.label3.Text = "Generado";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(79, 546);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(155, 22);
+            this.label4.TabIndex = 27;
+            this.label4.Text = "Nombre de la imagen";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(981, 631);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.metodo_9);
             this.Controls.Add(this.metodo_8);
@@ -380,6 +392,7 @@
         private System.Windows.Forms.Button metodo_9;
         private System.Windows.Forms.OpenFileDialog vistadialogo;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
