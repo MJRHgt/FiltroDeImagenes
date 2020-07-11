@@ -75,7 +75,7 @@ namespace ProyectoImagenes
                     int ffila1 = Convert.ToInt32(fila1);
                     int ffila2 = Convert.ToInt32(fila2);
                     int ffila3 = Convert.ToInt32(fila3);
-
+                    //evitar que se salgan del rango
                     int avr = ((ffila1 + ffila2 + ffila3) / 3);
                     if (avr>255)
                     {

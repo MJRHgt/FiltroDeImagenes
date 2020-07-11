@@ -57,6 +57,7 @@
             this.metodo_8 = new System.Windows.Forms.Button();
             this.metodo_9 = new System.Windows.Forms.Button();
             this.vistadialogo = new System.Windows.Forms.OpenFileDialog();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +79,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(465, 70);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(325, 444);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -87,16 +89,17 @@
             this.metodo_10.Name = "metodo_10";
             this.metodo_10.Size = new System.Drawing.Size(97, 77);
             this.metodo_10.TabIndex = 2;
-            this.metodo_10.Text = "Generar unico";
+            this.metodo_10.Text = "Generar imagen";
             this.metodo_10.UseVisualStyleBackColor = true;
             this.metodo_10.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 35);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(202, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 17);
+            this.label1.Size = new System.Drawing.Size(70, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "Original";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -106,9 +109,8 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(462, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 17);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Generado";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // m_1
@@ -292,12 +294,23 @@
             // 
             this.vistadialogo.FileName = "vistadialo";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(572, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 24);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Generado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(981, 631);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.metodo_9);
             this.Controls.Add(this.metodo_8);
             this.Controls.Add(this.metodo_7);
@@ -366,6 +379,7 @@
         private System.Windows.Forms.Button metodo_8;
         private System.Windows.Forms.Button metodo_9;
         private System.Windows.Forms.OpenFileDialog vistadialogo;
+        private System.Windows.Forms.Label label3;
     }
 }
 
